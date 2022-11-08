@@ -1,0 +1,30 @@
+﻿ @model List<Online_Student_Admission_System.Models.Department>
+
+@{
+   
+     <table class="table">
+    <thead>
+    <tr>
+    <td>Id</td>
+    <td>Name</td>
+    <td>No Of Slots</td>
+    
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var department in Model)
+            {
+                <tr>
+                <td>@department.Id</td>
+                <td>@department.Name</td>
+                <td>@department.No_of_slots</td>
+                <td><button class="btn btn-warning"><a href="UpdateDepartment/@department.Id">Update</a></button></td>
+               
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+
+}

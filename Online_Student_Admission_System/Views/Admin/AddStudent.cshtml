@@ -1,0 +1,34 @@
+﻿@model Online_Student_Admission_System.Models.AddStudent
+
+@{
+
+    
+}
+
+<h1>Add Student</h1>
+<form method="post" action="AddStudent" class="mt-5">
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+     <input type="text" class="form-control" asp-for="Name">
+    </div>
+
+     <div class="mb-3">
+        <label for="" class="form-label">EmailId</label>
+     <input type="text" class="form-control" asp-for="Emailid">
+    </div>
+     <div class="mb-3">
+        <label for="" class="form-label">Password</label>
+     <input type="text" class="form-control" asp-for="Password">
+    </div>
+     <div class="mb-3">
+        <label for="" class="form-label">Date Of Birth</label>
+     <input type="date" class="form-control" asp-for="Dob">
+    </div>
+     <div class="mb-3">
+        <label for="" class="form-label">Choose Department</label>
+   
+     <select class="form-control" asp-for="DepartmentId"  asp-items="ViewBag.DepartmentId" ></select>
+    
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

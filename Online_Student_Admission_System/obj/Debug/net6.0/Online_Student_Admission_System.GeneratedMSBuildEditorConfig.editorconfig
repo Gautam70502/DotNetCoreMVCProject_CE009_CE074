@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Online_Student_Admission_System
+build_property.RootNamespace = Online_Student_Admission_System
+build_property.ProjectDir = D:\sem 5 labs\WAD\mvc\Online_Student_Admission_System\Online_Student_Admission_System\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\sem 5 labs\WAD\mvc\Online_Student_Admission_System\Online_Student_Admission_System
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/AddDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRGVwYXJ0bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/AddStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/ApprovedStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXBwcm92ZWRTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/PayFees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGF5RmVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/StudentPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3R1ZGVudFBhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/UpdateDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlRGVwYXJ0bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/UpdateStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/ViewAllDepartments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld0FsbERlcGFydG1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/ViewAllStudents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld0FsbFN0dWRlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Admin/WaitingPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cV2FpdGluZ1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem 5 labs/WAD/mvc/Online_Student_Admission_System/Online_Student_Admission_System/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-u4qgn2d96m

@@ -1,0 +1,40 @@
+﻿@model Online_Student_Admission_System.Models.Loginmodel
+@{
+      var Fees_status = TempData["Fees_status"];
+    var Fees_amount = TempData["Fees_amount"];
+    var Id = TempData["Id"];
+   // var Fees_status = ViewData["fee_status"];
+    //var Fees_amount = ViewData["fee_amount"];
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+          <head>
+              <style>
+                  button{
+                      margin-top:30px;
+                  }
+              </style>
+          </head>  
+
+
+                    <center><h1>Payment</h1></center>
+                   @if((string)@Fees_status == "pending")
+                   {
+                       <h3 class="text-primary">Hey You have to pay  @Fees_amount</h3>
+                       <form method="post" action="PayFees">
+                           <label  class="form-label">Enter Amount</label>
+                           <input type="number" class="form-control" asp-for="Fee_amount">
+                           <button  class="btn btn-primary" type="submit">Pay</button>
+                       </form>
+                   }
+
+                   @if((string)@Fees_status == "paid")
+                   {
+                           
+                       <p class="text-success">Your Payment was Successful !!!!</p>
+
+                        
+
+                   }
+                  
+                  

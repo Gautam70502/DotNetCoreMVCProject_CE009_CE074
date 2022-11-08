@@ -1,0 +1,43 @@
+﻿@model List<Online_Student_Admission_System.Models.Student>
+
+@{
+     <table class="table">
+    <thead>
+    <tr>
+    <td>Id</td>
+    <td>Name</td>
+    <td>EmailId</td>
+    <td>Password</td>
+    <td>Date Of Birth</td>
+    <td>Department</td>
+   
+    
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var student in Model)
+            {
+
+                @if(student.Is_Approved == false)
+                {
+               
+                
+
+                <tr>
+                <td>@student.Id</td>
+                <td>@student.Name</td>
+                <td>@student.Emailid</td>
+                <td>@student.Password</td>
+                <td>@student.Dob</td>
+                <td>@student.DepartmentName</td>
+                <td><button  class="btn btn-warning"><a href="UpdateStudent/@student.Id">Approve Student</a></button></td>
+
+                </tr>
+
+                 }
+            }
+        </tbody>
+
+    </table>
+
+}

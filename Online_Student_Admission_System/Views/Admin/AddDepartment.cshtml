@@ -1,0 +1,19 @@
+﻿@model Online_Student_Admission_System.Models.AddDepartment
+
+@{
+
+}
+
+<h1>Add Department</h1>
+<form method="post" action="AddDepartment" class="mt-5">
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+     <input type="text" class="form-control" asp-for="Name">
+    </div>
+
+     <div class="mb-3">
+        <label for="" class="form-label">No Of Slots</label>
+     <input type="text" class="form-control" asp-for="No_of_slots">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

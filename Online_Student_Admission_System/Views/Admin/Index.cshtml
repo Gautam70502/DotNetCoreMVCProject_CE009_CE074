@@ -1,0 +1,62 @@
+﻿
+
+
+@{
+    
+}
+
+<style>
+a
+{
+    text-decoration:none;
+    color:white;
+}
+a:hover
+{
+    color:white;
+}
+
+.Menu
+{
+    margin-top:130px;
+    margin-left:180px;
+}
+
+
+button {
+    size:15px;
+}
+
+button:hover{
+
+    tranform: scaleX(1.7);
+    transform: scaleY(1.5);
+}
+
+</style>
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Admin Panel</h1>
+</div>
+
+ <div class="Menu">
+<button class="btn btn-dark"><a  asp-area="" asp-controller="Admin" asp-action="AddDepartment">Add Department</a></button>
+                       
+
+                      
+<button class="btn btn-dark"><a  asp-area="" asp-controller="Admin" asp-action="ViewAllDepartments">View Departments</a></button>
+                        
+                      
+<button class="btn btn-dark"><a  asp-area="" asp-controller="Admin" asp-action="AddStudent">Add Student</a></button>
+                        
+
+                        
+<button class="btn btn-dark"><a  asp-area="" asp-controller="Admin" asp-action="ViewAllStudents">View Students</a></button>
+
+<button class="btn btn-dark"><a  asp-area="" asp-controller="Admin" asp-action="ApprovedStudent">Approve Student</a></button>
+
+<button class="btn btn-dark"><a  asp-area="" asp-controller="Admin" asp-action="Logout">Logout</a></button>
+     
+</div>

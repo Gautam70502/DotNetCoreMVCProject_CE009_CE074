@@ -1,0 +1,22 @@
+﻿@model Online_Student_Admission_System.Models.Loginmodel
+
+@{
+    var error = ViewData["Wrong_auth"];
+    var name = ViewData["Name"];
+}
+
+<h1>Login Page</h1>
+<form method="post"  asp-action="Login"  class="mt-5">
+    <div class="mb-3">
+        <label for="" class="form-label">EmailID</label>
+     <input type="text" class="form-control" asp-for="Emailid" required>
+    </div>
+  
+     <div class="mb-3">
+        <label for="" class="form-label">Password</label>
+     <input type="password" class="form-control" asp-for="Password" required>
+    </div>
+     <p class="text-danger">@ViewBag.errormessage</p>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <p>Are You New to Website ?</p><a href="Register">Register Here</a>
+    </form>

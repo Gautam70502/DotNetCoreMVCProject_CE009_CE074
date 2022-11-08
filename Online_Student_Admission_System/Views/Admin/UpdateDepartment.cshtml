@@ -1,0 +1,23 @@
+﻿@model Online_Student_Admission_System.Models.UpdateDepartmentmodel
+
+@{
+}
+
+<form method="post" action="UpdateDepartment">
+    <div class="mb-3">
+        <label for="" class="form-label">Id</label>
+    <input type="text" class="form-control" asp-for="Id" readonly>
+    </div>
+     <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+    <input type="text" class="form-control" asp-for="Name" >
+    </div>
+     <div class="mb-3">
+        <label for="" class="form-label">No Of Slots</label>
+    <input type="number" class="form-control" asp-for="No_of_slots" >
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" asp-action="DeleteDepartment" asp-controller="Admin" class="btn btn-danger">Delete Department</button>
+
+</form>

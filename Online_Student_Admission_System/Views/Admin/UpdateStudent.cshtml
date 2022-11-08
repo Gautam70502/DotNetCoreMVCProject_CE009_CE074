@@ -1,0 +1,53 @@
+﻿@model Online_Student_Admission_System.Models.UpdateStudentmodel
+@{
+    
+}
+
+
+
+<form method="post" action="UpdateStudent">
+    <div class="mb-3">
+        <label for="" class="form-label"> Student Id</label>
+    <input type="text" class="form-control" asp-for="Id" readonly>
+    </div>
+     <div class="mb-3">
+        <label for="" class="form-label"> Student Name</label>
+    <input type="text" class="form-control" asp-for="Name" >
+    </div>
+     <div class="mb-3">
+        <label for="" class="form-label">EmailId</label>
+    <input type="text" class="form-control" asp-for="Emailid">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Password</label>
+    <input type="text" class="form-control" asp-for="Password">
+    </div>
+     <div class="mb-3">
+        <label for="" class="form-label">Date Of Birth</label>
+    <input type="date" class="form-control" asp-for="Dob">
+    </div>
+     <div class="mb-3">
+        <label for="" class="form-label">Fees Status</label>
+    <input type="text" class="form-control" asp-for="Fee_Status">
+    </div>
+
+     <div class="mb-3">
+        <label for="" class="form-label">Choose Department</label>
+     <select class="form-control" asp-for="DepartmentId"  asp-items="ViewBag.DepartmentId" ></select>
+    </div>
+  <div class="mb-3">
+        <label for="" class="form-label">Approve User</label>
+         <input type="text" class="form-control" asp-for="Is_Approved">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Fees Amount</label>
+         <input type="number" class="form-control" asp-for="Fee_amount">
+    </div>
+  
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-danger" asp-action="DeleteStudent" asp-controller="Admin" >Remove Student</button>
+    
+
+</form>
+
